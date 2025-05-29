@@ -1,3 +1,7 @@
+package stack;
+
+import stack.*;
+
 public class DynamicStack extends ArrayStack {
     public DynamicStack() {
         super(); //! it will call the MyStack()

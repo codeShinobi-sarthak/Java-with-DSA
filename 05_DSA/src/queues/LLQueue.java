@@ -1,3 +1,5 @@
+package queues;
+
 public class LLQueue {
     private Node head;
     private Node tail;
@@ -49,7 +51,7 @@ public class LLQueue {
     }
 
     private static class Node {
-        private int val;
+        private final int val;
         private Node next;
 
         public Node(int val) {

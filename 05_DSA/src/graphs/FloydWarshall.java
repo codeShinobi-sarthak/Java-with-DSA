@@ -1,3 +1,5 @@
+package graphs;
+
 public class FloydWarshall {
 
     final static int INF = 99999; // Represents infinity for unreachable paths

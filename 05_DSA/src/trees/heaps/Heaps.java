@@ -1,10 +1,10 @@
-package heaps;
+package trees.heaps;
 
 import java.util.ArrayList;
 
 public class Heaps<T extends Comparable> {
 
-    private ArrayList<T> list;
+    private final ArrayList<T> list;
 
     public Heaps() {
         this.list = new ArrayList<T>();
@@ -77,6 +77,8 @@ public class Heaps<T extends Comparable> {
             maxIndex = right;
         }
 
+        // if there is change in the index then perform this
+        // i.e. to maintain the correct order
         if (i != maxIndex) {
             swap(i, maxIndex);
             heapifyDown(maxIndex);
@@ -92,5 +94,21 @@ public class Heaps<T extends Comparable> {
     public int size() {
         return list.size();
     }
+
+
+    //     this is in decreasing order but you can do a reverse method for increasing order
+    public ArrayList<T> heapSort() throws Exception {
+        ArrayList<T> data = new ArrayList<>();
+        for (int i = 0; i < size(); i++) {
+            data.add(this.list.get(i));
+        }
+        return data;
+    }
+
+    // Print the heap elements in a structured way
+    public void print() {
+        System.out.println("Heap elements: " + list);
+    }
+
 
 }

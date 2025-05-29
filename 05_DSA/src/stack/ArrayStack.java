@@ -1,6 +1,8 @@
 package stack;
 
-public class ArrayStack {
+import java.util.*;
+
+public class ArrayStack{
     protected int[] data;
     private int capacity = 10;
     private int ptr = -1;

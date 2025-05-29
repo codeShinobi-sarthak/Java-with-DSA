@@ -1,6 +1,6 @@
 package genirics.comparing;
 
-public class Student implements Comparable<Student>{
+public class Student implements Comparable<Student> {
     int rollNo;
     float marks;
 
@@ -9,18 +9,19 @@ public class Student implements Comparable<Student>{
         this.marks = marks;
     }
 
+    // can change the return value (rollNo <-> marks)
+    // even both can be returned
     @Override
     public String toString() {
-        return marks + "";
+        return "RollNo: " + rollNo + ", Marks: " + marks;
     }
 
     @Override
     public int compareTo(Student st) {
-        int diff = (int)(this.marks - st.marks);
 
         // if diff == 0: means both are equal
         // if diff < 0: means o is bigger else o is smaller
 
-        return diff;
+        return (int) (this.marks - st.marks);
     }
 }

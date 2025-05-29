@@ -1,35 +1,8 @@
 package trees;
 
-import javax.swing.tree.TreeNode;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import trees.TreeNode;
 
-/**
- * Given the root of a binary tree, the value of a target node target, and an integer k,
- * return an array of the values of all nodes that have a distance k from the target node.
- * You can return the answer in any order.
- * <p>
- * Definition for a binary tree node.
- * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode(int x) { val = x; }
- * }
- */
-
-
-//public class TreeNode {
-//    int val;
-//    TreeNode left;
-//    TreeNode right;
-//
-//    TreeNode(int x) {
-//        val = x;
-//    }
-//}
+import java.util.*;
 
 public class AllNodesDistanceKinBinaryTree {
 

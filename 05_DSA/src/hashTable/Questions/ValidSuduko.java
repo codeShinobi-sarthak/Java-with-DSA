@@ -1,11 +1,8 @@
-package Questions;
+package hashTable.Questions;
 
 import java.util.HashSet;
 
 public class ValidSuduko {
-    public static void main(String[] args) {
-
-    }
 
     public static boolean isValidSudoku(char[][] board) {
         // Use arrays of sets to keep track of the characters seen
