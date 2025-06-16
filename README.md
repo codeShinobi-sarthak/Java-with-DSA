@@ -13,22 +13,6 @@ This repository is dedicated to my practice and study of Java, focusing on Data 
 - **LeetCode Questions:**  
   Step-by-step solutions to popular problems found on LeetCode.
 
-## Project Structure
-
-The repository is organized by topic. For example:
-
-- `arrays/`  
-  Contains problems and implementations related to array operations.
-  
-- `linkedlist/`  
-  Contains practice problems and linked list implementations.
-  
-- `trees/`  
-  Contains tree traversal algorithms and tree data structure implementations.
-  
-- `graphs/`  
-  Contains graph-related problems and algorithms.
-
 Each module/package is designed to allow independent execution of individual classes (with a `main()` method) using IntelliJ IDEA or any Java IDE.
 
 ## How to Run
@@ -37,4 +21,4 @@ Simply open the project in your IDE, navigate to any Java file with a `main()` m
 
 ---
 
-Happy coding and enjoy exploring DSA and LeetCode challenges!
+Happy coding and enjoy exploring!
