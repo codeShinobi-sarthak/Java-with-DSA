@@ -1,4 +1,4 @@
-package StringBasics;
+package strings.StringBasicsTutorial;
 
 public class Formating {
     public static void main(String[] args) {

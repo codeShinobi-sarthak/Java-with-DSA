@@ -1,7 +1,7 @@
-package Avl;
+package trees.Avl;
 
 public class AvlTree {
-    static class Node {
+    public static class Node {
         int val;
         Node left, right;
         int height;

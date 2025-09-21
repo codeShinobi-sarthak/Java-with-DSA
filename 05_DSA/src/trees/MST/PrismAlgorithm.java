@@ -85,14 +85,25 @@ public class PrismAlgorithm {
         // Example to create and test the graph
         PrismAlgorithm graph = new PrismAlgorithm(5);
 
-        // Adding edges (u, v, weight) - Example edges
-        graph.addEdge(0, 1, 2);
-        graph.addEdge(0, 3, 6);
-        graph.addEdge(1, 2, 3);
-        graph.addEdge(1, 3, 8);
-        graph.addEdge(1, 4, 5);
-        graph.addEdge(2, 4, 7);
-        graph.addEdge(3, 4, 9);
+        // Adding edges (u, v, weight) - Example edges 1
+//        graph.addEdge(0, 1, 2);
+//        graph.addEdge(0, 3, 6);
+//        graph.addEdge(1, 2, 3);
+//        graph.addEdge(1, 3, 8);
+//        graph.addEdge(1, 4, 5);
+//        graph.addEdge(2, 4, 7);
+//        graph.addEdge(3, 4, 9);
+
+
+        // Adding edges (u, v, weight) - Example edges 2
+        graph.addEdge(0, 1, 3);
+        graph.addEdge(0, 3, 7);
+        graph.addEdge(0, 4, 8);
+        graph.addEdge(1, 2, 1);
+        graph.addEdge(1, 3, 4);
+        graph.addEdge(2, 3, 2);
+        graph.addEdge(3, 4, 3);
+
 
         // Call primMST() - Implement the function logic here as per your needs
         graph.primMST();

@@ -1,10 +1,10 @@
-package SegmentTrees;
+package trees.SegmentTrees;
 
 public class SegmentTree {
 
     public Node root;
 
-    class Node {
+    static class Node {
         int val;
 
         int startInterval, endInterval;

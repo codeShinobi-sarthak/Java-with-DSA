@@ -1,4 +1,4 @@
-package Methods;
+package strings.InbuildMethods;
 
 public class Methods02 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Sorting;
+package recursion.Sorting;
 
 import java.util.Arrays;
 
@@ -13,7 +13,7 @@ public class SelectionSort {
 
         if (i <= j) {
             if (arr[max] < arr[i]) {
-            return selectionSort(arr, i, ++i, j);
+                return selectionSort(arr, i, ++i, j);
             }
             return selectionSort(arr, max, ++i, j);
         } else {

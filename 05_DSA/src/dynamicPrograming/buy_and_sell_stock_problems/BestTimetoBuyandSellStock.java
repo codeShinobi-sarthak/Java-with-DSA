@@ -1,4 +1,4 @@
-package buy_and_sell_stock_problems;
+package dynamicPrograming.buy_and_sell_stock_problems;
 
 public class BestTimetoBuyandSellStock {
     public static void main(String[] args) {

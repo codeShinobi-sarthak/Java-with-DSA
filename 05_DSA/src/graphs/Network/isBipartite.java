@@ -1,4 +1,4 @@
-package graphs;
+package graphs.Network;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -6,10 +6,10 @@ import java.util.Queue;
 
 public class isBipartite {
     public static void main(String[] args) {
-
+//        System.out.println(checkBipartite());
     }
 
-    public boolean isBipartite(int[][] graph) {
+    public boolean checkBipartite(int[][] graph) {
         int n = graph.length;
         int[] color = new int[n];
         Arrays.fill(color, -1); // Initialize all vertices as uncolored (-1)
