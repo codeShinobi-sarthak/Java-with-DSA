@@ -73,31 +73,6 @@ git clone https://github.com/codeShinobi-sarthak/Java-with-DSA.git
 cd Java-with-DSA
 ```
 
-### Compile & Run Single File (No build tool)
-```bash
-javac src/arrays/TwoPointerExample.java
-java -cp src arrays.TwoPointerExample
-```
-
-### With Maven (if you add a pom.xml later)
-```bash
-mvn clean test
-```
-
-### With Gradle (if you add build.gradle)
-```bash
-./gradlew build
-```
-
-## 🧪 Testing (optional if you want)
-Add JUnit tests under `test/`:
-```bash
-# Maven style
-mvn test
-# or Gradle
-./gradlew test
-```
-
 ## 🧠 Patterns Cheat Sheet (Planned)
 Create a `docs/patterns.md` with sections:
 - Sliding Window
@@ -123,15 +98,6 @@ Create a `docs/patterns.md` with sections:
 ```
 Update with ✅ as you go.
 
-## 🗺 Roadmap (Customize)
-- ✅ Initialize repository
-- 🔧 Add core array & string problems
-- 🔧 Introduce JUnit tests
-- 🔧 Add complexity cheat sheet
-- 🔧 Add graph algorithms set
-- 🔧 Add dynamic programming section
-- 🔧 Add CLI runner to choose problems
-- 🔧 Add benchmarking (JMH) for key algorithms
 
 ## 🛡 License
 No license declared yet.  
@@ -141,13 +107,8 @@ Legally all rights are reserved by default.
 This is a personal learning repo, contributions are Welcome — open a discussion or issue before large changes.
 
 ## 🔐 Security
-Not applicable (no runtime service), but if you notice incorrect algorithmic explanation or potential license issues, open an issue.
+Not applicable (no runtime service), but if you notice incorrect algorithmic explanation , open an issue.
 
-## 🙌 Inspiration & References 
-- CLRS (Introduction to Algorithms)
-- "Algorithms" by Sedgewick & Wayne
-- LeetCode / HackerRank problem sets
-- GeeksForGeeks explanations
 
 ## ⭐ Support
 If this repository helps your learning journey, consider starring it so you can find it again easily.
